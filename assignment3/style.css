@@ -1,0 +1,37 @@
+header {
+  background-color: grey;
+}
+footer {
+  background-color: grey;
+}
+a {
+  color: red;
+}
+a:visited {
+ color: green;
+}
+a:hover {
+ color: yellow;
+}
+#holdup {
+  color: purple;
+  background-color: grey;
+}
+main {
+  background-color: grey;
+}
+nav {
+  background-color: black;
+}
+.highlight {
+  background-color: yellow;
+  color: black;
+}
+#portfolio {
+  color: white;
+  background-color: black;
+}
+.hours {
+  color: white;
+  background-color: purple;
+}
