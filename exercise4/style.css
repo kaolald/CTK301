@@ -1,0 +1,50 @@
+header {
+  background-color: #9f90f5;
+}
+
+a {
+ color: green;
+ text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+main {
+  background-color: lightgreen;
+}
+
+footer {
+  background-color: yellow;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  background-color: yellow;
+}
+
+h4 {
+  color: yellow;
+  background-color: green;
+}
+
+h5{
+  color: red;
+}
+
+#redtext {
+  color: red;
+}
+
+.orangetext {
+  color: orange;
+}
