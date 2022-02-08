@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  background-color: darkred;
+  background-image: url(images/backgroundimage.jpg);
+  background-position: top left;
+}
+#textcenter {
+  text-align: center;
+}
+header {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+img {
+  border: 20px solid black;
+padding: 10px 10px 10px 10px;
+margin: 20px 20px 20px 20px;
+}
+footer {
+  background-color: grey;
+}
+h2 {
+  text-align: justify;
+}
+a {
+  color: red;
+}
+a:visited {
+ color: green;
+}
+a:hover {
+ color: yellow;
+}
+#holdup {
+  color: purple;
+  background-color: #cfcfcf;
+}
+main {
+  background-color: #cfcfcf;
+}
+nav {
+  background-color: grey;
+}
+.highlight {
+  background-color: yellow;
+  color: black;
+}
+#portfolio {
+  color: white;
+  background-color: #cfcfcf;
+}
+.hours {
+  color: white;
+  background-color: purple;
+}
