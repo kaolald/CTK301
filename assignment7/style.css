@@ -1,0 +1,137 @@
+body {
+    background-color: grey;
+    font-family: sans-serif;
+}
+p {
+  font-family: Georgia;
+}
+img {
+  border: 3px solid darkblue;
+}
+#startrunning {
+  font-weight: bold;
+  text-align: justify;
+}
+#mainlink {
+  color: #66CCFF;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: normal;
+}
+#logolink {
+  background-image: url("wordmark_isu");
+    display: block;
+    height:80px;
+    width:262px;
+}
+#footerlogo {
+  border: none;
+}
+header {
+  grid-column: span 4;
+  display: block;
+  background-image: linear-gradient(to top, #0053ac, #005fba, #006cc9, #0079d7, #0086e5);
+  padding-left: 15px;
+}
+h1 a {
+  text-decoration: none;
+}
+h2 {
+  border-bottom: 3px solid darkblue;
+  color: darkblue;
+  display: block;
+  padding: 5px;
+}
+main {
+  grid-column: span 4;
+  margin: 5px;
+  padding: 5px;
+}
+nav {
+  grid-column: span 4;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4.45px;
+  background-image: linear-gradient(to top, #0053ac, #005fba, #006cc9, #0079d7, #0086e5);
+}
+nav ul {
+  text-decoration-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  width: 234.5px;
+  color: #ffffff;
+  display: inline-block;
+}
+nav li a {
+  color: #66CCFF;
+  font-weight: bold;
+  font-size: 1.25em;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(to top, #00479d, #0053a9, #005fb5, #006bc1, #0077cc);
+  display: block;
+  text-decoration: none;
+}
+nav li a:hover {
+ background-image: linear-gradient(to bottom, #00479d, #0053a9, #005fb5, #006bc1, #0077cc);
+ text-decoration: none;
+ color: #66CCFF;
+}
+aside ul {
+  text-decoration-style: none;
+}
+ aside ul {
+  color: white;
+  padding: 10px;
+  display: block;
+}
+aside li {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  color: white;
+  display: inline-block;
+}
+#wrapper {
+  margin: 1em auto;
+  width: 960px;
+  border: 5px solid #00479F;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat (4, 1fr);
+}
+.floatimage {
+  margin: 20px;
+  float: left;
+  width: 480px;
+}
+.floatright {
+  margin: 20px;
+  float: right;
+  width: 480px;
+}
+.isulogo {
+  margin: 20px;
+  float: left;
+  width: 240px;
+}
+.redbold {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+}
+footer {
+ grid-column: span 4;
+ display: block;
+ background-color: red;
+ border-top: 5px solid #00479F;
+ text-align: center;
+ padding: 15px
+}
