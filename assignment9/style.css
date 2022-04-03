@@ -1,0 +1,113 @@
+body {
+  background-color: #727272;
+  font-family: monospace;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #d4d4d4;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  /*grid-template-rows: 600px; /* This is for the dummy columns, replace or delete */
+}
+
+header {
+  grid-column: span 12;
+  text-align: center;
+  color: white;
+}
+.highlightred {
+  color: red;
+}
+p {
+  font-size: 14pt;
+}
+nav {
+    grid-column: span 12;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  margin: 10px;
+}
+nav li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #E9E9E9;
+  padding: 5px;
+}
+nav li a:hover {
+  color: white;
+  background-color: #010101;
+}
+.altnav {
+grid-column: span 12;
+text-align: left;
+justify-content: left;
+font-size: 15pt;
+font-weight: bold;
+text-decoration: none;
+color: black;
+}
+.altnav:hover {
+  color: #1FFFF5;
+}
+.sendbutton {
+  justify-content: left;
+  font-size: 15pt;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+.sendbutton:hover {
+  color: #1FFFF5;
+}
+main {
+  grid-column: span 12;
+}
+#mainpageimage {
+  grid-column: span 12;
+  display: grid;
+  width: 1200px;
+  height: 900px;
+  padding-top: 15px;
+  align-content: center;
+}
+#aboutimage {
+  grid-column: span 4;
+  float: left;
+  width: 640px;
+  padding: 15px;
+}
+#smallimage {
+  float: left;
+  padding: 15px;
+  width: 240px;
+}
+.contentimage {
+  float: left;
+  width: 480px;
+  padding: 15px;
+}
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
