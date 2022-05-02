@@ -23,6 +23,7 @@ body {
 }
 #myCarousel img {
   width: 100%;
+  height: 95%;
 }
 header {
   grid-column: span 12;
@@ -45,13 +46,14 @@ audio {
   margin: 15px;
 }
 nav {
-    grid-column: span 12;
-    text-align: center;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 5px;
-    border-bottom: 2px solid black;
+  grid-column: span 12;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 2px solid black;
 }
 nav ul {
   margin: 0;
@@ -63,6 +65,7 @@ nav li {
 }
 nav li a {
   color: black;
+  font-size: 15pt;
   text-decoration: none;
   font-weight: bold;
   display: inline-block;
@@ -76,13 +79,13 @@ nav li a:hover {
   background-color: #010101;
 }
 .altnav {
-grid-column: span 12;
-text-align: left;
-justify-content: left;
-font-size: 15pt;
-font-weight: bold;
-text-decoration: none;
-color: black;
+  grid-column: span 12;
+  text-align: left;
+  justify-content: left;
+  font-size: 20pt;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
 .altnav a:hover {
   color: #ff4d29;
@@ -102,13 +105,9 @@ color: black;
 main {
   grid-column: span 12;
 }
-#mainpageimage {
-  grid-column: span 12;
-  display: grid;
-  width: 1200px;
-  height: 900px;
-  padding-top: 15px;
-  align-content: center;
+.mainpageimage {
+  width: 960px;
+  height: auto;
 }
 #aboutimage {
   grid-column: span 4;
@@ -120,6 +119,9 @@ main {
   float: left;
   padding: 15px;
   width: 240px;
+}
+#paragraph {
+  height: 366px;
 }
 .contentimage {
   float: left;
